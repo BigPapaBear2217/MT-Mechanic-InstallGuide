@@ -51,6 +51,8 @@ else if (itemData.name == "mechanic_paint_spray") {
 	["mechanic_nitrous_empty"]     = {["name"] = "mechanic_nitrous_empty", 				    ["label"] = "Vehicle Nitrous Empty", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_nitrous.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Ok... it seems that need something!"},
 	["mechanic_mods_receipt"]     = {["name"] = "mechanic_mods_receipt", 				    ["label"] = "Vehicle Mods Receipt", 					["weight"] = 0, 		["type"] = "item", 			["image"] = "mechanic_mods_receipt.png", 		    ["unique"] = true, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Take this to any workshop!"},
 	["mechanic_roof"]     = {["name"] = "mechanic_roof", 				    ["label"] = "Vehicle Roof", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_roof.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Roof Roof!"},
+	["mechanic_extras"]     = {["name"] = "mechanic_extras", 				    ["label"] = "Vehicle Extras", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_extras.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Want to change some things at your vehicle? <br> Just use this!"},
+
 ```
 - Replace to qb-core/client/functions.lua where is QBCore.Functions.GetVehicleProperties():
 
