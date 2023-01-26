@@ -54,7 +54,7 @@ else if (itemData.name == "mechanic_paint_spray") {
 	["mechanic_extras"]     = {["name"] = "mechanic_extras", 				    ["label"] = "Vehicle Extras", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_extras.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Want to change some things at your vehicle? <br> Just use this!"},
 
 ```
-- Go in qb-core/client/functions.lua and replace the QBCore.Functions.GetVehicleProperties() with this:
+- Go on line 419(default) and change the QBCore.Functions.GetVehicleProperties(vehicle) with this:
 
 ```
 function QBCore.Functions.GetVehicleProperties(vehicle)
@@ -208,7 +208,7 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
     end
 end
 ```
-- Go in qb-core/client/functions.lua and replace the QBCore.Functions.SetVehicleProperties() with this:
+- Go on line 567(default) and change the QBCore.Functions.SetVehicleProperties(vehicle) with this:
 
 ```
 function QBCore.Functions.SetVehicleProperties(vehicle, props)
