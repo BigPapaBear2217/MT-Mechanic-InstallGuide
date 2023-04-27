@@ -54,6 +54,7 @@ else if (itemData.name == "mechanic_paint_spray") {
 	["mechanic_extras"]     = {["name"] = "mechanic_extras", 				    ["label"] = "Vehicle Extras", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_extras.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Want to change some things at your vehicle? <br> Just use this!"},
 	["mechanic_interior"]     = {["name"] = "mechanic_interior", 				    ["label"] = "Vehicle Interior", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_interior.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Need some confort? Use this shit at your car!"},
 	["mechanic_exterior"]     = {["name"] = "mechanic_exterior", 				    ["label"] = "Vehicle Exterior Parts", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_exterior.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "IDK"},
+	["mechanic_repair_kit"]     = {["name"] = "mechanic_repair_kit", 				    ["label"] = "Vehicle Repair Kit", 					["weight"] = 1000, 		["type"] = "item", 			["image"] = "repairkit.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Just use this shit at your vehicle..."},
 
 ```
 - Go on qb-core/client/functions.lua, on line 419(default) and change the QBCore.Functions.GetVehicleProperties(vehicle) with this:
