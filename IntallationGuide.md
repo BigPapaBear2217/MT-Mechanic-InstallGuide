@@ -2,14 +2,6 @@
 
 # To start you just need to add your script to your resouces folder and follow the following instructions:
 - Add images from mt-mechanic/images to qb-inventory/html/images;
-- Add The following code to qb-inventory/html/app.js:
-
-```
-else if (itemData.name == "mechanic_paint_spray") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html("<p> <b> Color number: </b>" + itemData.info.paintNumber + "; <br> <b> Color type: </b>" + itemData.info.paintType +" <br> <b> Secound color type: " + itemData.info.paintType2 + " </b> </p> ");
-        }
-```
 - Add the following items to qb-core/shared/items.lua:
 
 ```
