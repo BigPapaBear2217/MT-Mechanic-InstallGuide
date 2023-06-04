@@ -49,6 +49,296 @@
 	["mechanic_repair_kit"]     = {["name"] = "mechanic_repair_kit", 				    ["label"] = "Vehicle Repair Kit", 					["weight"] = 1000, 		["type"] = "item", 			["image"] = "repairkit.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Just use this shit at your vehicle..."},
 
 ```
+- if you're using ox_inventory use this one:
+```
+	['mechanic_washing_kit'] = {
+    	label = 'Kit de lavagem de carro',
+    	weight = 50,
+		name = 'mechanic_washing_kit',
+		useable = true,
+    },
+
+	['mechanic_paint_spray'] = {
+    	label = 'Spray de pintura',
+    	weight = 50,
+		name = 'mechanic_paint_spray',
+		useable = true,
+    },
+
+	['mechanic_engine_lvl1'] = {
+    	label = 'Motor LVL1',
+    	weight = 100,
+		name = 'mechanic_engine_lvl1',
+		useable = true,
+    },
+
+	['mechanic_engine_lvl2'] = {
+    	label = 'Motor LVL2',
+    	weight = 100,
+		name = 'mechanic_engine_lvl2',
+		useable = true,
+    },
+
+	['mechanic_engine_lvl3'] = {
+    	label = 'Motor LVL3',
+    	weight = 100,
+		name = 'mechanic_engine_lvl3',
+		useable = true,
+    },
+	
+	['mechanic_engine_lvl4'] = {
+    	label = 'Motor LVL4',
+    	weight = 100,
+		name = 'mechanic_engine_lvl4',
+		useable = true,
+    },
+		
+	['mechanic_transmission_lvl1'] = {
+    	label = 'Transmissão LVL1',
+    	weight = 100,
+		name = 'mechanic_transmission_lvl1',
+		useable = true,
+    },
+			
+	['mechanic_transmission_lvl2'] = {
+    	label = 'Transmissão LVL2',
+    	weight = 100,
+		name = 'mechanic_transmission_lvl2',
+		useable = true,
+    },
+				
+	['mechanic_transmission_lvl3'] = {
+    	label = 'Transmissão LVL3',
+    	weight = 100,
+		name = 'mechanic_transmission_lvl3',
+		useable = true,
+    },
+						
+	['mechanic_suspension_lvl1'] = {
+    	label = 'Suspensão LVL1',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl1',
+		useable = true,
+    },
+							
+	['mechanic_suspension_lvl2'] = {
+    	label = 'Suspensão LVL2',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl1',
+		useable = true,
+    },
+								
+	['mechanic_suspension_lvl3'] = {
+    	label = 'Suspensão LVL3',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl3',
+		useable = true,
+    },		
+
+	['mechanic_suspension_lvl4'] = {
+    	label = 'Suspensão LVL4',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl4',
+		useable = true,
+    },
+
+	['mechanic_turbo'] = {
+    	label = 'Turbo',
+    	weight = 100,
+		name = 'mechanic_turbo',
+		useable = true,
+    },
+
+	['mechanic_armor'] = {
+    	label = 'Armadura',
+    	weight = 100,
+		name = 'mechanic_armor',
+		useable = true,
+    },
+
+	['mechanic_tools'] = {
+    	label = 'Ferramentas de mecânico',
+    	weight = 100,
+		name = 'mechanic_tools',
+		useable = true,
+    },
+
+	['mechanic_toolbox'] = {
+    	label = 'Caixa de ferramentas portátil',
+    	weight = 100,
+		name = 'mechanic_toolbox',
+		useable = true,
+    },
+
+	['mechanic_neons_controller'] = {
+    	label = 'Comando de neons',
+    	weight = 100,
+		name = 'mechanic_neons_controller',
+		useable = true,
+    },
+
+	['mechanic_brakes_lvl1'] = {
+    	label = 'Travões LVL1',
+    	weight = 100,
+		name = 'mechanic_brakes_lvl1',
+		useable = true,
+    },
+
+	['mechanic_brakes_lvl2'] = {
+    	label = 'Travões LVL2',
+    	weight = 100,
+		name = 'mechanic_brakes_lvl2',
+		useable = true,
+    },
+
+	['mechanic_brakes_lvl3'] = {
+    	label = 'Travões LVL3',
+    	weight = 100,
+		name = 'mechanic_brakes_lvl3',
+		useable = true,
+    },
+
+	['mechanic_plate'] = {
+    	label = 'Placas de veiculo',
+    	weight = 100,
+		name = 'mechanic_plate',
+		useable = true,
+    },
+
+	['mechanic_window_tint'] = {
+    	label = 'Tinta de janelas',
+    	weight = 100,
+		name = 'mechanic_window_tint',
+		useable = true,
+    },
+
+	['mechanic_livery'] = {
+    	label = 'Autocolantes',
+    	weight = 100,
+		name = 'mechanic_livery',
+		useable = true,
+    },
+
+	['mechanic_drift_tyres'] = {
+    	label = 'Pneus de drift',
+    	weight = 100,
+		name = 'mechanic_drift_tyres',
+		useable = true,
+    },
+
+	['mechanic_wheels'] = {
+    	label = 'Jantes',
+    	weight = 100,
+		name = 'mechanic_wheels',
+		useable = true,
+    },
+
+	['mechanic_bumpers'] = {
+    	label = 'Parachoques',
+    	weight = 100,
+		name = 'mechanic_bumpers',
+		useable = true,
+    },
+
+	['mechanic_bonnet'] = {
+    	label = 'Capô',
+    	weight = 100,
+		name = 'mechanic_bonnet',
+		useable = true,
+    },
+
+	['mechanic_skirt'] = {
+    	label = 'Saias',
+    	weight = 100,
+		name = 'mechanic_skirt',
+		useable = true,
+    },
+
+	['mechanic_spoiler'] = {
+    	label = 'Spoilers',
+    	weight = 100,
+		name = 'mechanic_spoiler',
+		useable = true,
+    },
+
+	['mechanic_horn'] = {
+    	label = 'Businas',
+    	weight = 100,
+		name = 'mechanic_horn',
+		useable = true,
+    },
+
+	['mechanic_grill'] = {
+    	label = 'Grelhas',
+    	weight = 100,
+		name = 'mechanic_grill',
+		useable = true,
+    },
+
+	['mechanic_nitrous'] = {
+    	label = 'Nitro',
+    	weight = 100,
+		name = 'mechanic_nitrous',
+		useable = true,
+    },
+
+	['mechanic_exhaust'] = {
+    	label = 'Escape',
+    	weight = 100,
+		name = 'mechanic_exhaust',
+		useable = true,
+    },
+
+	['mechanic_nitrous_empty'] = {
+    	label = 'Garrafa de Nitro',
+    	weight = 100,
+		name = 'mechanic_nitrous_empty',
+		useable = true,
+    },
+	
+	['mechanic_mods_receipt'] = {
+    	label = 'Lista de mods',
+    	weight = 100,
+		name = 'mechanic_mods_receipt',
+		useable = true,
+    },
+
+	['mechanic_roof'] = {
+    	label = 'Tejadilhos',
+    	weight = 100,
+		name = 'mechanic_roof',
+		useable = true,
+    },
+
+	['mechanic_extras'] = {
+    	label = 'Extras',
+    	weight = 100,
+		name = 'mechanic_extras',
+		useable = true,
+    },
+
+	['mechanic_interior'] = {
+    	label = 'Interiores',
+    	weight = 100,
+		name = 'mechanic_interior',
+		useable = true,
+    },
+
+	['mechanic_exterior'] = {
+    	label = 'Exteriores',
+    	weight = 100,
+		name = 'mechanic_exterior',
+		useable = true,
+    },
+
+	['mechanic_repair_kit'] = {
+    	label = 'Kit de reparação',
+    	weight = 100,
+		name = 'mechanic_repair_kit',
+		useable = true,
+    },
+```
+
 - Go on qb-core/client/functions.lua, on line 419(default) and change the QBCore.Functions.GetVehicleProperties(vehicle) with this:
 
 ```
