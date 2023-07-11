@@ -48,6 +48,337 @@
 	["mechanic_exterior"]     = {["name"] = "mechanic_exterior", 				    ["label"] = "Vehicle Exterior Parts", 					["weight"] = 500, 		["type"] = "item", 			["image"] = "mechanic_exterior.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "IDK"},
 	["mechanic_repair_kit"]     = {["name"] = "mechanic_repair_kit", 				    ["label"] = "Vehicle Repair Kit", 					["weight"] = 1000, 		["type"] = "item", 			["image"] = "repairkit.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Just use this shit at your vehicle..."},
 ```
+
+if you're using ox_inventory use this one:
+```
+
+	['mechanic_washing_kit'] = {
+    	label = 'Car Wash Kit',
+    	weight = 50,
+		name = 'mechanic_washing_kit',
+		description = "Car Washing Kit",
+		useable = true,
+    },
+
+	['mechanic_paint_spray'] = {
+    	label = 'Paint Spray',
+    	weight = 50,
+		name = 'mechanic_paint_spray',
+		description = "Paint Spray",
+		useable = true,
+    },
+
+	['mechanic_engine_lvl1'] = {
+    	label = 'Engine LVL1',
+    	weight = 100,
+		name = 'mechanic_engine_lvl1',
+		description = "Engine Level 1",
+		useable = true,
+    },
+
+	['mechanic_engine_lvl2'] = {
+    	label = 'Engine LVL2',
+    	weight = 100,
+		name = 'mechanic_engine_lvl2',
+		description = "Engine Level 2",
+		useable = true,
+    },
+
+	['mechanic_engine_lvl3'] = {
+    	label = 'Engine LVL3',
+    	weight = 100,
+		name = 'mechanic_engine_lvl3',
+		description = "Engine Level 3",
+		useable = true,
+    },
+	
+	['mechanic_engine_lvl4'] = {
+    	label = 'Engine LVL4',
+    	weight = 100,
+		name = 'mechanic_engine_lvl4',
+		description = "Engine Level 4",
+		useable = true,
+    },
+		
+	['mechanic_transmission_lvl1'] = {
+    	label = 'Transmission LVL1',
+    	weight = 100,
+		name = 'mechanic_transmission_lvl1',
+		description = "Transmission Level 1",
+		useable = true,
+    },
+			
+	['mechanic_transmission_lvl2'] = {
+    	label = 'Transmission LVL2',
+    	weight = 100,
+		name = 'mechanic_transmission_lvl2',
+		description = "Transmission Level 2",
+		useable = true,
+    },
+				
+	['mechanic_transmission_lvl3'] = {
+    	label = 'Transmission LVL3',
+    	weight = 100,
+		name = 'mechanic_transmission_lvl3',
+		description = "Transmission Level 3",
+		useable = true,
+    },
+						
+	['mechanic_suspension_lvl1'] = {
+    	label = 'Suspension LVL1',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl1',
+		description = "Suspension Level 1",
+		useable = true,
+    },
+							
+	['mechanic_suspension_lvl2'] = {
+    	label = 'Suspension LVL2',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl1',
+		description = "Suspension Level 2",
+		useable = true,
+    },
+								
+	['mechanic_suspension_lvl3'] = {
+    	label = 'Suspension LVL3',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl3',
+		description = "Suspension Level 3",
+		useable = true,
+    },		
+
+	['mechanic_suspension_lvl4'] = {
+    	label = 'Suspension LVL4',
+    	weight = 100,
+		name = 'mechanic_suspension_lvl4',
+		description = "Suspension Level 4",
+		useable = true,
+    },
+
+	['mechanic_turbo'] = {
+    	label = 'Turbo',
+    	weight = 100,
+		name = 'mechanic_turbo',
+		description = "Turbo",
+		useable = true,
+    },
+
+	['mechanic_armor'] = {
+    	label = 'Armor',
+    	weight = 100,
+		name = 'mechanic_armor',
+		description = "Armor",
+		useable = true,
+    },
+
+	['mechanic_tools'] = {
+    	label = 'Mechanic Tools',
+    	weight = 100,
+		name = 'mechanic_tools',
+		description = "Mechanic Tools",
+		useable = true,
+    },
+
+	['mechanic_toolbox'] = {
+    	label = 'Portable Tool Box',
+    	weight = 100,
+		name = 'mechanic_toolbox',
+		description = "Portable Tool Box",
+		useable = true,
+    },
+
+	['mechanic_neons_controller'] = {
+    	label = 'Neon Controller',
+    	weight = 100,
+		name = 'mechanic_neons_controller',
+		description = "Neon Controller",
+		useable = true,
+    },
+
+	['mechanic_brakes_lvl1'] = {
+    	label = 'Brakes LVL1',
+    	weight = 100,
+		name = 'mechanic_brakes_lvl1',
+		description = "Brakes Level 1",
+		useable = true,
+    },
+
+	['mechanic_brakes_lvl2'] = {
+    	label = 'Brakes LVL2',
+    	weight = 100,
+		name = 'mechanic_brakes_lvl2',
+		description = "Brakes Level 2",
+		useable = true,
+    },
+
+	['mechanic_brakes_lvl3'] = {
+    	label = 'Brakes LVL3',
+    	weight = 100,
+		name = 'mechanic_brakes_lvl3',
+		description = "Brakes Level 3",
+		useable = true,
+    },
+
+	['mechanic_plate'] = {
+    	label = 'License Plates',
+    	weight = 100,
+		name = 'mechanic_plate',
+		description = "License Plates",
+		useable = true,
+    },
+
+	['mechanic_window_tint'] = {
+    	label = 'Window Tint',
+    	weight = 100,
+		name = 'mechanic_window_tint',
+		description = "Windown Tint",
+		useable = true,
+    },
+
+	['mechanic_livery'] = {
+    	label = 'Stickers',
+    	weight = 100,
+		name = 'mechanic_livery',
+		description = "Livery",
+		useable = true,
+    },
+
+	['mechanic_drift_tyres'] = {
+    	label = 'Drift Tires',
+    	weight = 100,
+		name = 'mechanic_drift_tyres',
+		description = "Drift Tires",
+		useable = true,
+    },
+
+	['mechanic_wheels'] = {
+    	label = 'Wheels',
+    	weight = 100,
+		name = 'mechanic_wheels',
+		description = "Wheels",
+		useable = true,
+    },
+
+	['mechanic_bumpers'] = {
+    	label = 'Bumpers',
+    	weight = 100,
+		name = 'mechanic_bumpers',
+		description = "Bumpers",
+		useable = true,
+    },
+
+	['mechanic_bonnet'] = {
+    	label = 'Bonnet',
+    	weight = 100,
+		name = 'mechanic_bonnet',
+		description = "Bonnet",
+		useable = true,
+    },
+
+	['mechanic_skirt'] = {
+    	label = 'Skirts',
+    	weight = 100,
+		name = 'mechanic_skirt',
+		description = "Skirts",
+		useable = true,
+    },
+
+	['mechanic_spoiler'] = {
+    	label = 'Spoilers',
+    	weight = 100,
+		name = 'mechanic_spoiler',
+		useable = true,
+    },
+
+	['mechanic_horn'] = {
+    	label = 'Horn',
+    	weight = 100,
+		name = 'mechanic_horn',
+		description = "Horn",
+		useable = true,
+    },
+
+	['mechanic_grill'] = {
+    	label = 'Grill',
+    	weight = 100,
+		name = 'mechanic_grill',
+		description = "Grill",
+		useable = true,
+    },
+
+	['mechanic_nitrous'] = {
+    	label = 'Nitro',
+    	weight = 100,
+		name = 'mechanic_nitrous',
+		description = "Nitro",
+		useable = true,
+    },
+
+	['mechanic_exhaust'] = {
+    	label = 'Exhaust',
+    	weight = 100,
+		name = 'mechanic_exhaust',
+		description = "Exhaust",
+		useable = true,
+    },
+
+	['mechanic_nitrous_empty'] = {
+    	label = 'Empty Nitro',
+    	weight = 100,
+		name = 'mechanic_nitrous_empty',
+		description = "Nitro Empty",
+		useable = true,
+    },
+	
+	['mechanic_mods_receipt'] = {
+    	label = 'Receipt',
+    	weight = 100,
+		name = 'mechanic_mods_receipt',
+		description = "List of Mods",
+		useable = true,
+    },
+
+	['mechanic_roof'] = {
+    	label = 'Roof',
+    	weight = 100,
+		name = 'mechanic_roof',
+		description = "Roof",
+		useable = true,
+    },
+
+	['mechanic_extras'] = {
+    	label = 'Extras',
+    	weight = 100,
+		name = 'mechanic_extras',
+		description = "Extras",
+		useable = true,
+    },
+
+	['mechanic_interior'] = {
+    	label = 'Interior',
+    	weight = 100,
+		name = 'mechanic_interior',
+		description = "Interior",
+		useable = true,
+    },
+
+	['mechanic_exterior'] = {
+    	label = 'Exterior',
+    	weight = 100,
+		name = 'mechanic_exterior',
+		description = "Exterior",
+		useable = true,
+    },
+
+	['mechanic_repair_kit'] = {
+    	label = 'Repair Kit',
+    	weight = 100,
+		name = 'mechanic_repair_kit',
+		description = "Repair Kit",
+		useable = true,
+    },
+```
 - Configure the script to your mlo's and perferences and enjoy!
 
 # If need some help just join our discord and open an ticket, thanks for your purchase!
